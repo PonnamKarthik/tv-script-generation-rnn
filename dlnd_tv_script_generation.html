@@ -13171,7 +13171,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13198,7 +13198,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">view_line_range</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -13280,7 +13280,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">problem_unittests</span> <span class="k">as</span> <span class="nn">tests</span>
@@ -13353,7 +13353,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">token_lookup</span><span class="p">():</span>
@@ -13415,7 +13415,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13440,7 +13440,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13467,7 +13467,7 @@ george: yes, it was purple, i liked it, i dont actually recall considering the b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13518,7 +13518,7 @@ sequence_length = 4</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">torch.utils.data</span> <span class="k">import</span> <span class="n">TensorDataset</span><span class="p">,</span> <span class="n">DataLoader</span>
@@ -13614,7 +13614,7 @@ tensor([ 33,  26,  22,  39,  16,  28,  11,  43,  30,  12])</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># test dataloader</span>
@@ -13695,7 +13695,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="nn">nn</span>
@@ -13746,8 +13746,8 @@ out = output[:, -1]</code></pre>
         <span class="n">lstm_out</span> <span class="o">=</span> <span class="n">lstm_out</span><span class="o">.</span><span class="n">contiguous</span><span class="p">()</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">hidden_dim</span><span class="p">)</span>
         
         <span class="c1"># dropout and fully-connected layer</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">lstm_out</span><span class="p">)</span>
-        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fc</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+<span class="c1">#         out = self.dropout(lstm_out)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fc</span><span class="p">(</span><span class="n">lstm_out</span><span class="p">)</span>
         
         <span class="n">out</span> <span class="o">=</span> <span class="n">out</span><span class="o">.</span><span class="n">view</span><span class="p">(</span><span class="n">batch_size</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_size</span><span class="p">)</span>
         <span class="n">out</span> <span class="o">=</span> <span class="n">out</span><span class="p">[:,</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
@@ -13820,7 +13820,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">forward_back_prop</span><span class="p">(</span><span class="n">rnn</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">criterion</span><span class="p">,</span> <span class="n">inp</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">hidden</span><span class="p">):</span>
@@ -13902,7 +13902,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -13970,12 +13970,12 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Data params</span>
 <span class="c1"># Sequence Length</span>
-<span class="n">sequence_length</span> <span class="o">=</span> <span class="mi">200</span> <span class="c1"># of words in a sequence</span>
+<span class="n">sequence_length</span> <span class="o">=</span> <span class="mi">10</span> <span class="c1"># of words in a sequence</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 
@@ -13990,29 +13990,29 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Training parameters</span>
 <span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="c1"># Learning Rate</span>
-<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.001</span>
 
 <span class="c1"># Model parameters</span>
 <span class="c1"># Vocab size</span>
 <span class="n">vocab_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">vocab_to_int</span><span class="p">))</span>
 <span class="c1"># Output size</span>
-<span class="n">output_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">vocab_to_int</span><span class="p">)</span>
+<span class="n">output_size</span> <span class="o">=</span> <span class="n">vocab_size</span>
 <span class="c1"># Embedding Dimension</span>
-<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">400</span>
+<span class="n">embedding_dim</span> <span class="o">=</span> <span class="mi">300</span>
 <span class="c1"># Hidden Dimension</span>
-<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">256</span>
+<span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">512</span>
 <span class="c1"># Number of RNN Layers</span>
 <span class="n">n_layers</span> <span class="o">=</span> <span class="mi">2</span>
 
 <span class="c1"># Show stats for every n number of batches</span>
-<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">show_every_n_batches</span> <span class="o">=</span> <span class="mi">1000</span>
 </pre></div>
 
     </div>
@@ -14033,7 +14033,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">signal</span>
@@ -14099,7 +14099,7 @@ out = output[:, -1]</code></pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14118,9 +14118,9 @@ out = output[:, -1]</code></pre>
     <span class="c1"># training the model</span>
     <span class="n">trained_rnn</span> <span class="o">=</span> <span class="n">train_rnn</span><span class="p">(</span><span class="n">rnn</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">,</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">criterion</span><span class="p">,</span> <span class="n">num_epochs</span><span class="p">,</span> <span class="n">show_every_n_batches</span><span class="p">)</span>
 
-<span class="c1"># saving the trained model</span>
-<span class="n">helper</span><span class="o">.</span><span class="n">save_model</span><span class="p">(</span><span class="s1">&#39;./save/trained_rnn&#39;</span><span class="p">,</span> <span class="n">trained_rnn</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Model Trained and Saved&#39;</span><span class="p">)</span>
+    <span class="c1"># saving the trained model</span>
+    <span class="n">helper</span><span class="o">.</span><span class="n">save_model</span><span class="p">(</span><span class="s1">&#39;./save/trained_rnn&#39;</span><span class="p">,</span> <span class="n">trained_rnn</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Model Trained and Saved&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14137,32 +14137,126 @@ out = output[:, -1]</code></pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Training for 1 epoch(s)...
-Epoch:    1/1     Loss: 5.406351813316345
+<pre>Training for 10 epoch(s)...
+Epoch:    1/10    Loss: 5.170189083099365
 
-Epoch:    1/1     Loss: 5.206318714141846
+Epoch:    1/10    Loss: 4.503150735378266
 
-Epoch:    1/1     Loss: 5.06170386171341
+Epoch:    1/10    Loss: 4.474519686698914
 
-Epoch:    1/1     Loss: 5.018140096664428
+Epoch:    1/10    Loss: 4.331409626960754
 
-Epoch:    1/1     Loss: 5.063688611030579
+Epoch:    1/10    Loss: 4.223363637924194
 
-Epoch:    1/1     Loss: 5.146167366504669
+Epoch:    1/10    Loss: 4.326055052995682
 
-Epoch:    1/1     Loss: 5.082651303291321
+Epoch:    2/10    Loss: 4.137432375816795
 
-Epoch:    1/1     Loss: 4.98050138092041
+Epoch:    2/10    Loss: 3.7978702619075775
 
-Epoch:    1/1     Loss: 4.9603944268226625
+Epoch:    2/10    Loss: 3.851082270145416
 
-Epoch:    1/1     Loss: 4.951109922409057
+Epoch:    2/10    Loss: 3.7856079142093657
 
-Epoch:    1/1     Loss: 5.084373552322388
+Epoch:    2/10    Loss: 3.721852464914322
 
-Epoch:    1/1     Loss: 5.143381948471069
+Epoch:    2/10    Loss: 3.840544731616974
 
-Epoch:    1/1     Loss: 5.120554344177246
+Epoch:    3/10    Loss: 3.7529628992807575
+
+Epoch:    3/10    Loss: 3.5312077143192293
+
+Epoch:    3/10    Loss: 3.595755403995514
+
+Epoch:    3/10    Loss: 3.5467380084991453
+
+Epoch:    3/10    Loss: 3.497447467327118
+
+Epoch:    3/10    Loss: 3.6131523168087005
+
+Epoch:    4/10    Loss: 3.5386211609210427
+
+Epoch:    4/10    Loss: 3.352854296207428
+
+Epoch:    4/10    Loss: 3.402617164850235
+
+Epoch:    4/10    Loss: 3.3814240198135375
+
+Epoch:    4/10    Loss: 3.3350822954177857
+
+Epoch:    4/10    Loss: 3.4481539504528045
+
+Epoch:    5/10    Loss: 3.379560179463247
+
+Epoch:    5/10    Loss: 3.2261605575084684
+
+Epoch:    5/10    Loss: 3.2604461340904236
+
+Epoch:    5/10    Loss: 3.2605176236629485
+
+Epoch:    5/10    Loss: 3.2055592739582064
+
+Epoch:    5/10    Loss: 3.3109104421138764
+
+Epoch:    6/10    Loss: 3.264171518082541
+
+Epoch:    6/10    Loss: 3.130454081058502
+
+Epoch:    6/10    Loss: 3.163344355344772
+
+Epoch:    6/10    Loss: 3.167378207445145
+
+Epoch:    6/10    Loss: 3.1106321816444398
+
+Epoch:    6/10    Loss: 3.2125198442935945
+
+Epoch:    7/10    Loss: 3.177464588991995
+
+Epoch:    7/10    Loss: 3.0545820534229278
+
+Epoch:    7/10    Loss: 3.079902170419693
+
+Epoch:    7/10    Loss: 3.0928614506721495
+
+Epoch:    7/10    Loss: 3.038452443599701
+
+Epoch:    7/10    Loss: 3.130676434278488
+
+Epoch:    8/10    Loss: 3.100475458837137
+
+Epoch:    8/10    Loss: 2.9973724558353423
+
+Epoch:    8/10    Loss: 3.0103089175224302
+
+Epoch:    8/10    Loss: 3.0262850966453554
+
+Epoch:    8/10    Loss: 2.96701478600502
+
+Epoch:    8/10    Loss: 3.0673841836452485
+
+Epoch:    9/10    Loss: 3.038558484214108
+
+Epoch:    9/10    Loss: 2.942029593229294
+
+Epoch:    9/10    Loss: 2.954600935459137
+
+Epoch:    9/10    Loss: 2.9734456503391264
+
+Epoch:    9/10    Loss: 2.912966237068176
+
+Epoch:    9/10    Loss: 3.004868017554283
+
+Epoch:   10/10    Loss: 2.984563142182381
+
+Epoch:   10/10    Loss: 2.895393460392952
+
+Epoch:   10/10    Loss: 2.9017361850738523
+
+Epoch:   10/10    Loss: 2.9231407063007353
+
+Epoch:   10/10    Loss: 2.864851174592972
+
+Epoch:   10/10    Loss: 2.954368609189987
 
 </pre>
 </div>
@@ -14216,6 +14310,13 @@ Epoch:    1/1     Loss: 5.120554344177246
 <p>hidden_dim = 128</p>
 <p>n_layers = 2</p>
 <p>As we have more number of words to process and its taking lot of time to train so i tought of going with 1 epochs, lerning rate of 0.01</p>
+<p>with this above params i stoped at a loss of 5.xx as the desired loss to be &lt;3.5 so i started tuning params like sequence length , batch size, epochs, learning rate</p>
+<p>sequence_length = 20</p>
+<p>batch_size = 128</p>
+<p>num_epochs = 10</p>
+<p>learning_rate = 0.001</p>
+<p>hidden_dim = 512</p>
+<p>n_layers = 2</p>
 
 </div>
 </div>
@@ -14231,7 +14332,7 @@ Epoch:    1/1     Loss: 5.120554344177246
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14261,7 +14362,7 @@ Epoch:    1/1     Loss: 5.120554344177246
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -14356,7 +14457,7 @@ Epoch:    1/1     Loss: 5.120554344177246
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># run the cell multiple times to get different results!</span>
@@ -14396,99 +14497,81 @@ Epoch:    1/1     Loss: 5.120554344177246
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>jerry:.
+<pre>jerry: rise.
 
-jerry: the, i think the.
+george: what do you mean deported?
 
-elaine: what?
+newman: yes it is.
 
-george: i can&#39;t a.
+hoyt: what?
 
-elaine: i can&#39;t, i think the?
+hoyt: the soup nazi, the bubble boy.
 
-jerry: you know, i was?
+george: i can&#39;t.
 
-kramer: what is this?
+elaine: well, i was carjacked that i dated the plane.
 
-george: oh no, i can&#39;t. you don&#39;t get it?
+jerry: you didn&#39;t hear that?
 
-george: you don&#39;t want you to the
+george: no, nothing.
 
-kramer: oh, you know how you? i was the.
+hoyt: so, essentially, essentially, jane, the prosecution will rise.
 
-elaine: what?
+george: oh, no, no, i can&#39;t find the soup- less testimony.
 
-kramer: well, i can&#39;t know.
+hoyt: state a little bit contest.
 
-george: you want to you, the.
+jerry: you dated it.
 
-jerry: i can&#39;t.
+elaine: i think you&#39;re going to have soup in the sauna.
 
-mr. ross: you, the?
+elaine: well, i didn&#39;t know that you could be bleak in a manner of microphone.
 
-elaine: well, i think the
+hoyt: so you broke up with the stand?
 
-jerry: you know how?
+[new witness: marcellino steinbrenner]
 
-jerry: what is that, the
+hoyt: the defendants bubble restaurateur?
 
-george: what?
+jerry: yes.
 
-elaine: i think you got.
+george: well, i didnt know how much this is.
 
-elaine: you can&#39;t a little. you know, and
+elaine: i thought it might be a very incriminating.
 
-george: i don&#39;t know how?
+hoyt: so what? why did they prove the jury?
 
-jerry: the?
+hoyt: and i have to cancel the whole thing of the taxpayers&#39; wheelchair. ]
 
-elaine: i have to get the, i think i was the, and the.
+vandelay: objection overruled?
 
-elaine: you can&#39;t.
+elaine: i thought i was acting going to be a good cop, huh?
 
-elaine: what?
+hoyt: so, essentially, jane, you know, i can&#39;t do that! i cannot guarantee the defendants court.
 
-jerry: i was the.
+hoyt: the bubble boy.
 
-george: the. i don&#39;t want to the?
+hoyt: and the jury is going to be prosecuted.
 
-kramer: you want to the.
+hoyt: so, essentially costanza?
 
-jerry: you know, you can&#39;t, and, and i don&#39;t know...
+elaine: yeah, yeah. i forgot to talk to you later.
 
-elaine: you know.
+hoyt: state it?
 
-george: i have to be a good?
+jerry: yes.
 
-george: i was.
-
-george: i was the, you know what?
-
-elaine: you want to the the
-
-elaine: i don&#39;t you know.
-
-jerry: oh no.
-
-elaine: you know, i can&#39;t.
-
-jerry: so, i was.
-
-elaine: what i think it&#39;s the the.
+jerry: so, essentially, you were going to be prosecuted doolittle.
 
 george: what?
 
-elaine: i was the.
+elaine: what happened to you?
 
-george: you don&#39;t have it.
+hoyt: what do you do?
 
-kramer: oh, no!
+newman: well, you know, i didn&#39;t realize it was destroyed. you know what? die.
 
-elaine: i was.
-
-elaine: what i don&#39;t know what i was..
-
-george: i don&#39;t want it, you have to you the.
+elaine: what?
 
 </pre>
 </div>
@@ -14508,7 +14591,7 @@ george: i don&#39;t want it, you have to you the.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># save script to a text file</span>
